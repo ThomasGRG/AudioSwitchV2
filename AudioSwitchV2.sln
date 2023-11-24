@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSwitchV2", "AudioSwitchV2\AudioSwitchV2.csproj", "{A0EE0DA3-E3D2-4B5F-8302-EA3CC15F0F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0EE0DA3-E3D2-4B5F-8302-EA3CC15F0F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EE0DA3-E3D2-4B5F-8302-EA3CC15F0F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EE0DA3-E3D2-4B5F-8302-EA3CC15F0F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EE0DA3-E3D2-4B5F-8302-EA3CC15F0F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {722E5545-10C1-4B26-8037-F9BE0952DDB0}
+	EndGlobalSection
+EndGlobal
