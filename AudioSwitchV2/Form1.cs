@@ -68,7 +68,16 @@ namespace AudioSwitchV2
 
         private void NotificationToggle_Click(object sender, System.EventArgs e)
         {
-            notify = !notify;
+            if (NotificationToggle.Text == "Enable Notifications")
+            {
+                notify = true;
+                NotificationToggle.Text = "Disable Notifications";
+            }
+            else
+            {
+                notify = false;
+                NotificationToggle.Text = "Enable Notifications";
+            }
         }
 
         private void StartAtBootToggle_Click(object sender, System.EventArgs e)
@@ -154,6 +163,14 @@ namespace AudioSwitchV2
         {
             offlineAudioDevice = Properties.Settings.Default.offlineDevice;
             notify = Properties.Settings.Default.notify;
+            if (notify)
+            {
+                NotificationToggle.Text = "Disable Notifications";
+            }
+            else
+            {
+                NotificationToggle.Text = "Enable Notifications";
+            }
         }
 
         private void SaveSettings()
